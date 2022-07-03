@@ -1,6 +1,7 @@
 .wrap {
   width: 1920px;
   font-family: 'Roboto';
+  margin: 0 auto;
 
   .title-picture {
     width: 100%;
@@ -120,7 +121,7 @@
       width: 1196px;
       display: flex;
       justify-content: space-between;
-      margin-top: 40;
+      margin-top: 40px;
       margin-bottom: 160px;
     }
   }
