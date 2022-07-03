@@ -1,0 +1,201 @@
+.wrap {
+  width: 1024px;
+  margin: 0 auto;
+
+  .content {
+    width: 940px;
+    margin: 30px auto 60px auto;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      .title-img {
+        img {
+          width: 220px;
+        }
+      }
+
+      .title-list {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          a {
+            text-decoration: none;
+            color: #3F5D45;
+            font-weight: 600;
+          }
+        }
+
+        a {
+          img {
+            height: 24px;
+          }
+        }
+      }
+    }
+
+    .products {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .list {
+        ul {
+          li {
+            width: 300px;
+            height: 65px;
+            font-size: 24px;
+            color: #3F5D45;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+              text-decoration: none;
+              color: #3F5D45;
+              padding: 20.5px 66px;
+            }
+          }
+
+          .list-title {
+            color: #EAF0ED;
+            background-color: #3F5D45;
+          }
+
+          .list-content-now {
+            background-color: #EAF0ED;
+          }
+
+          .list-content:hover {
+            background-color: #EAF0ED;
+            transition: all 0.3s;
+          }
+        }
+      }
+
+      .products-list {
+        width: 620px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+
+          .item-img {
+            height: 315px;
+            position: relative;
+
+            .item-slogan {
+              position: absolute;
+              top: 0px;
+              left: 20px;
+              background-color: #3F5D45;
+              width: 36px;
+              height: 107px;
+              writing-mode: vertical-lr;
+              color: white;
+              letter-spacing: 5px;
+
+              p {
+                width: 33.5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+
+            .my-favorite {
+              position: absolute;
+              top: 19px;
+              right: 22px;
+              cursor: pointer;
+            }
+          }
+
+          .item-content {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            color: #3F5D45;
+            border-left: 1px solid #EAF0ED;
+            border-right: 1px solid #EAF0ED;
+
+            .item-title {
+              padding-left: 33px;
+              padding-right: 33px;
+              border-right: 1px solid #EAF0ED;
+              height: 48px;
+              display: flex;
+              align-items: center;
+
+              h3 {
+                padding-right: 7px;
+              }
+            }
+
+            .item-price {
+              padding-right: 20px;
+              display: flex;
+              align-items: center;
+            }
+          }
+
+          .join-cart {
+            button {
+              width: 300px;
+              border: 0px;
+              background-color: #EAF0ED;
+              height: 65px;
+              color: #3F5D45;
+              font-size: 24px;
+              font-weight: 600;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    .page {
+      display: flex;
+      justify-content: end;
+      font-size: 20px;
+
+      ul {
+        display: flex;
+        border-top: 1px solid #EAF0ED;
+        border-left: 1px solid #EAF0ED;
+        border-bottom: 1px solid #EAF0ED;
+
+        li {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-right: 1px solid #EAF0ED;
+          cursor: pointer;
+        }
+
+        .page-now {
+          background-color: #3F5D45;
+          color: white;
+        }
+
+        .page-number:hover {
+          background-color: #3F5D45;
+          color: white;
+        }
+      }
+    }
+  }
+}

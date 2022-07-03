@@ -1,0 +1,42 @@
+.wrap {
+  width: 640px;
+  margin: 0 auto;
+
+  .top-section {
+    display: flex;
+
+    .left-section {
+      width: 424px;
+
+      .part-1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+
+        .part-1-img {
+          width: 96px;
+          height: 96px;
+          background-color: aquamarine;
+          margin-right: 20px;
+        }
+
+        .part-1-text {
+          width: 288px;
+          font-size: 20px;
+          line-height: 1.2;
+        }
+      }
+    }
+
+    .right-section {
+      background-color: aqua;
+      width: 216px;
+      height: 216px;
+    }
+  }
+
+  .bottom-section {
+    height: 120px;
+    background-color: antiquewhite;
+  }
+}

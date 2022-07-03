@@ -1,0 +1,281 @@
+.wrap .content {
+  margin: 0 auto;
+  width: 62.5%;
+}
+
+.wrap .content .title-name {
+  padding-top: 40px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid black;
+}
+
+.wrap .content .title-name h1 {
+  font-size: 80px;
+}
+
+.wrap .content .title-picture {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.wrap .content .title-profile h1 {
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-family: 'San Francisco', Helvetica, Arial, san-serif;
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.wrap .content .title-profile h1 span {
+  margin-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+  font-weight: 600;
+}
+
+.wrap .content .title-profile .profile-content {
+  font-family: PingFangTC-Regular, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.wrap .content .title-profile .profile-content .content-part1 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.wrap .content .title-profile .profile-content .content-part2 {
+  margin-bottom: 72px;
+}
+
+.wrap .content .title-education h1 {
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-family: 'San Francisco', Helvetica, Arial, san-serif;
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid black;
+}
+
+.wrap .content .title-education h1 span {
+  margin-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+  font-weight: 600;
+}
+
+.wrap .content .title-education .education-content {
+  font-family: PingFangTC-Regular, sans-serif;
+  font-size: 24px;
+  margin-bottom: 72px;
+}
+
+.wrap .content .title-education .education-content p {
+  margin-bottom: 16px;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+}
+
+.wrap .content .title-skills {
+  background-color: #415165;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'San Francisco', Helvetica, Arial, san-serif;
+}
+
+.wrap .content .title-skills h1 {
+  font-size: 32px;
+  padding-top: 29.5px;
+  padding-bottom: 13.5px;
+  width: 83%;
+  border-bottom: 1px solid #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap .content .title-skills h1 span {
+  margin-left: 16px;
+  font-size: 24px;
+}
+
+.wrap .content .title-skills .skills-content {
+  margin-top: 40px;
+  margin-bottom: 52px;
+  min-height: 331px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24px;
+  padding-left: 24px;
+  border-left: 1px solid #FFFFFF;
+}
+
+.wrap .content .title-skills .skills-content p {
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.wrap .content .title-exp {
+  padding-top: 72px;
+  padding-bottom: 8px;
+  font-size: 32px;
+}
+
+.wrap .content .title-exp h1 {
+  padding-top: 6.5px;
+  padding-bottom: 14.5px;
+  font-weight: 600;
+  font-family: 'San Francisco', Helvetica, Arial, san-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.wrap .content .title-exp h1 span {
+  margin-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+}
+
+.wrap .content .title-exp .exp-content {
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-bottom: 72px;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+  max-width: 624px;
+  font-family: PingFangTC-Regular, sans-serif;
+}
+
+.wrap .content .title-exp .exp-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+}
+
+.wrap .content .title-exp .exp-content p {
+  font-size: 20px;
+}
+
+.wrap .content .title-exp .exp-content .hex-exp img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.wrap .content .title-exp .exp-content .hex-exp p {
+  line-height: 30px;
+}
+
+.wrap .content .title-exp .exp-content .work-exp-list {
+  margin-top: 32px;
+}
+
+.wrap .content .title-exp .exp-content .work-exp-list img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.wrap .footer {
+  background-color: #415165;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.wrap .footer h1 {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-family: 'San Francisco', Helvetica, Arial, san-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  border-bottom: #FFFFFF 1px solid;
+  width: 62.5%;
+}
+
+.wrap .footer h1 span {
+  font-size: 24px;
+  margin-left: 16px;
+}
+
+.wrap .footer .footer-content {
+  font-size: 24px;
+  text-align: center;
+}
+
+.wrap .footer .footer-content p {
+  margin-bottom: 16px;
+}
+
+.wrap .footer .icon-link {
+  margin-top: 4px;
+  margin-bottom: 48px;
+  width: 192px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=home.css.map */
