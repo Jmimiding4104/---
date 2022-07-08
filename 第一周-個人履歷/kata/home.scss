@@ -6,25 +6,14 @@
     display: flex;
 
     .left-section {
-      width: 424px;
+      display: flex;
+      flex-wrap: wrap;
 
-      .part-1 {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 24px;
-
-        .part-1-img {
-          width: 96px;
-          height: 96px;
-          background-color: aquamarine;
-          margin-right: 20px;
-        }
-
-        .part-1-text {
-          width: 288px;
-          font-size: 20px;
-          line-height: 1.2;
-        }
+      .text {
+        width: 288px;
+        margin: 0 20px 24px;
+        font-size: 20px;
+        line-height: 1.2;
       }
     }
 
@@ -36,7 +25,7 @@
   }
 
   .bottom-section {
-    height: 120px;
     background-color: antiquewhite;
+    padding: 60px;
   }
 }
